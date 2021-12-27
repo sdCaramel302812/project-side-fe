@@ -1,0 +1,30 @@
+.App-header {
+  background-color: #ffffff;
+  height: 90px;
+  width: 100vw;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  height: 50px;
+  pointer-events: none;
+}
+
+.Header-Container {
+  width: 80vw;
+  height: 76px;
+  margin: auto;
+  margin-top: 7px;
+  position: relative;
+}
+
+.Login-Button {
+  width: 100px;
+  height: 45px;
+  right: 10px;
+  position: absolute;
+  /*use top and transform to center vertically*/
+  top: 50%;
+  transform: translateY(-50%);
+}
