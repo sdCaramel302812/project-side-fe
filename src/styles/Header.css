@@ -1,9 +1,13 @@
-.App-header {
+.App-Header {
   background-color: #ffffff;
-  height: 90px;
+  height: 50px;
   width: 100vw;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-bottom-color: #DDDDDD;
+  border-bottom-width: 1px;
+  border-style: solid;
+  box-shadow: 0px 0px 5px lightgrey;
 }
 
 .App-logo {
@@ -12,16 +16,16 @@
 }
 
 .Header-Container {
-  width: 80vw;
-  height: 76px;
+  width: 90vw;
+  height: 44px;
   margin: auto;
-  margin-top: 7px;
+  margin-top: 3px;
   position: relative;
 }
 
 .Login-Button {
   width: 100px;
-  height: 45px;
+  height: 40px;
   right: 10px;
   position: absolute;
   /*use top and transform to center vertically*/

@@ -1,0 +1,24 @@
+.Home {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    width: 70vw;
+    margin: auto;
+    display: grid;
+    padding-top: 10vh;
+}
+
+.Project-Container {
+    height: 60vh;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #DDDDDD;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 1vh;
+}
+
+.New-Project-Button {
+    width: 125px;
+    height: 30px;
+    float: right;
+}

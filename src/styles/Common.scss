@@ -20,3 +20,23 @@
     cursor: pointer;
   }
 }
+
+.Outline-Button {
+  background-color: rgba(0, 0, 0, 0);;
+  color: #333333;
+  border-color: #CCCCCC;
+  border-radius: 5px;
+  border-width: 2px;
+  letter-spacing: 1px;
+  border-style: solid;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  &:hover {
+    background-color: #FFFFFF;
+    color: #0089A7;
+    border-color: #0089A7;
+    border-width: 2px;
+    cursor: pointer;
+  }
+}
