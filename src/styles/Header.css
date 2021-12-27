@@ -1,7 +1,6 @@
 .App-Header {
   background-color: #ffffff;
   height: 50px;
-  width: 100vw;
   font-size: calc(10px + 2vmin);
   color: white;
   border-bottom-color: #DDDDDD;
@@ -25,7 +24,7 @@
 
 .Login-Button {
   width: 100px;
-  height: 40px;
+  height: 36px;
   right: 10px;
   position: absolute;
   /*use top and transform to center vertically*/

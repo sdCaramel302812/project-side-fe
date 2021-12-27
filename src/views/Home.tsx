@@ -14,7 +14,7 @@ function LoggedIn() {
     <div className='Home'>
       <div>
         <span style={{verticalAlign: '-webkit-baseline-middle', fontSize: 20}}>My Projects</span>
-        <button className='Outline-Button New-Project-Button'>new</button>
+        <button className='Outline-Button New-Project-Button'>New project</button>
       </div>
       <div>
         <div className='Project-Container'>Hello</div>
@@ -27,7 +27,7 @@ function Home() {
   const [isLoggedIn, setLoggedIn] = useState(true);
 
   return (
-    <div>
+    <div className='Root'>
       <Header/>
       {isLoggedIn ? <LoggedIn/> : <UnLoggedIn/>}
     </div>

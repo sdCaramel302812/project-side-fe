@@ -1,7 +1,12 @@
+.Root {
+    height: 100vh;
+    background-color: rgb(252, 252, 252);
+}
+
 .Home {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: relative;
-    width: 70vw;
+    width: 50vw;
     margin: auto;
     display: grid;
     padding-top: 10vh;
