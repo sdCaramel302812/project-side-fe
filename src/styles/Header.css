@@ -3,10 +3,10 @@
   height: 50px;
   font-size: calc(10px + 2vmin);
   color: white;
-  border-bottom-color: #DDDDDD;
-  border-bottom-width: 1px;
+  border-bottom-color: lightgrey;
+  border-bottom-width: 3px;
   border-style: solid;
-  box-shadow: 0px 0px 5px lightgrey;
+  box-shadow: 0px 0px 20px lightgrey;
 }
 
 .App-logo {

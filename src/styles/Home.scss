@@ -1,5 +1,6 @@
 .Root {
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
     background-color: rgb(252, 252, 252);
 }
 
@@ -10,16 +11,49 @@
     margin: auto;
     display: grid;
     padding-top: 10vh;
+    padding-bottom: 50px;
 }
 
 .Project-Container {
-    height: 60vh;
+    min-height: 60vh;
+    height: 100%;
     border-style: solid;
     border-width: 2px;
     border-color: #DDDDDD;
     border-radius: 5px;
     padding: 15px;
     margin-top: 1vh;
+    //display: flex;
+}
+
+.Project-Item {
+    width: 200px;
+    height: 150px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #DDDDDD;
+    border-radius: 5px;
+    float: left;
+    margin: 17px;
+    position: relative;
+}
+
+.Project-Edit-Button {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.Project-Member-Button {
+    position: absolute;
+    margin-left: 10px;
+    bottom: 10px;
+}
+
+.Project-Setting-Button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }
 
 .New-Project-Button {

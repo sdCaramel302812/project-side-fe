@@ -9,6 +9,28 @@ function UnLoggedIn() {
   );
 }
 
+function ProjectItem() {
+  return (
+    <div className='Project-Item'>
+      hello
+      <button className='Outline-Button Project-Edit-Button'>edit</button>
+      <button className='Outline-Button Project-Member-Button'>members</button>
+      <button className='Outline-Button Project-Setting-Button'>other</button>
+    </div>
+  );
+}
+
+function ProjectContainer() {
+  return (
+    <div className='Project-Container'>
+      <ProjectItem/>
+      <ProjectItem/>
+      <ProjectItem/>
+      <ProjectItem/>
+    </div>
+  );
+}
+
 function LoggedIn() {
   return (
     <div className='Home'>
@@ -17,7 +39,7 @@ function LoggedIn() {
         <button className='Outline-Button New-Project-Button'>New project</button>
       </div>
       <div>
-        <div className='Project-Container'>Hello</div>
+        <ProjectContainer/>
       </div>
     </div>
   );
