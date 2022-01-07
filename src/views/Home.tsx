@@ -13,9 +13,9 @@ function ProjectItem() {
   return (
     <div className='Project-Item'>
       hello
-      <button className='Outline-Button Project-Edit-Button'>edit</button>
-      <button className='Outline-Button Project-Member-Button'>members</button>
-      <button className='Outline-Button Project-Setting-Button'>other</button>
+      <button className='Icon-Button Project-Edit-Button'></button>
+      <button className='Icon-Button Project-Member-Button'></button>
+      <button className='Icon-Button Project-Setting-Button'></button>
     </div>
   );
 }
