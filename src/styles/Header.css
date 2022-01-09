@@ -1,6 +1,7 @@
 .App-Header {
   background-color: #ffffff;
   height: 50px;
+  width: 100%;
   font-size: calc(10px + 2vmin);
   color: white;
   border-bottom-color: lightgrey;
@@ -15,9 +16,8 @@
 }
 
 .Header-Container {
-  width: 90vw;
   height: 44px;
-  margin: auto;
+  margin: 10vh;
   margin-top: 3px;
   position: relative;
 }
