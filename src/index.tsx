@@ -5,10 +5,21 @@ import Home from './views/Home';
 import Project from './views/Project';
 import reportWebVitals from './reportWebVitals';
 
+import { BrowserRouter,
+  Link,
+  Routes,
+  Route,
+  Outlet
+} from "react-router-dom";
+
 ReactDOM.render(
-  <React.StrictMode>
-    <Project />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="project" element={<Project/>}>
+      </Route>
+    </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
